@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $negro;
+    color: $blanco;
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    height: 100%;
+    @include telefono{
+        min-height: 100%;
+    }
+   
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

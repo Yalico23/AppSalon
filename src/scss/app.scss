@@ -1,0 +1,21 @@
+/*base*/
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/globales';
+
+@import 'base/tipografia';
+/*componenetes*/
+@import 'componenetes/formulario';
+@import 'componenetes/botones';
+@import 'componenetes/acciones';
+@import 'componenetes/alertas';
+@import 'componenetes/tabs';
+@import 'componenetes/paginacion';
+@import 'componenetes/sweetAlert';
+/*Layout*/
+@import 'layout/UI';
+@import 'layout/cita';
+@import 'layout/servicios';
+@import 'layout/resumen';
+@import 'layout/admin';

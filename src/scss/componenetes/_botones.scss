@@ -1,0 +1,28 @@
+.boton-azul{
+    @include boton($azul,$blanco);
+    &:hover{
+        background-color: darken($azul, 30%)
+    }
+}
+.boton-amarillo{
+    @include boton($amarillo,$blanco);
+}
+
+.boton-gris{
+    @include boton(darken(#0da6f3, 20%),$gris);
+}
+.boton-eliminar{
+    @include boton($rojo,$blanco);
+}
+.boton-cerrar{
+    @include boton($negro,$blanco);
+    &:hover{
+        background-color: lighten($negro, 10%)
+    }
+    border: 1px solid $blanco;
+}
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

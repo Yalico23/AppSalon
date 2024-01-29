@@ -1,0 +1,1 @@
+function IniciarApp(){buscaFecha()}function buscaFecha(){document.querySelector(".btn-buscar").addEventListener("click",(function(){actualizar()}))}function actualizar(){const c=document.querySelector("#Fecha").value;window.location="?fecha="+c}document.addEventListener("DOMContentLoaded",(function(){IniciarApp()}));

@@ -1,0 +1,31 @@
+.citas {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 1rem;
+    border-top: 1px solid $blanco;
+    p {
+      font-weight: $bold;
+      color: $azul;
+    }
+    span,
+    .servicio {
+      font-weight: $regular;
+      color: $blanco;
+    }
+    &:hover{
+        background-color: lighten($negro,10%);
+      }
+  }
+  
+}
+.servicios{
+  @extend .citas;
+}
+.acciones{
+  margin: 0;
+}
+.boton-azul,
+.boton-eliminar{
+  margin: 0;
+}

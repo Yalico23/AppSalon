@@ -1,0 +1,23 @@
+{
+    "name": "oscar/app-salon_php_mvc_js_sass",
+    "description": "proyecto mvc",
+    "type":"proyect",
+    "autoload":{
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clases\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oscar Yalico",
+            "email": "jeanpiero_23_01@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  @include tablet {
+    display: block;
+  }
+  button {
+    background-color: $azul;
+    border: none;
+    color: $blanco;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: $bold;
+    width: 100%;
+    display: block;
+    transition: background-color 300ms ease;
+    
+    &:hover {
+      background-color: darken($azul, $amount: 20%);
+      cursor: pointer;
+    }
+    &.actual{
+        background-color: $blanco;
+        color: $azul;
+    }
+  }
+}
